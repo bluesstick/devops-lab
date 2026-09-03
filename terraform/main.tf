@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "app" {
-  name     = "rg-devops-app"
+  name     = var.resource_group_name
   location = "North Europe"
 
   tags = {
